@@ -1,0 +1,14 @@
+flask
+vosk
+sounddevice
+scipy
+numpy
+pydub
+noisereduce
+transformers
+spacy
+torch
+torchaudio
+librosa
+soundfile
+faster-whisper
