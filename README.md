@@ -260,9 +260,8 @@ Implements knowledge base search.
 1. User query
 2. Search transcripts (keyword + embeddings)
 3. Return matching segments
-```
 
----
+
 
 
 
