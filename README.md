@@ -23,82 +23,84 @@ This project provides:
 
 ---
 ## 📂 Project Structure
+## 📂 Project Structure
 
 MeetSense3.0/
-│── .venv/ # Virtual environment
-│── .env # Environment variables
-│── .gitignore
-│── requirements.txt # Python dependencies
-│── README.md # Project documentation
 │
-│── app.py # Main Streamlit application
-│── app_int.py # Intermediate/CLI app
-│── pipeline.py # Central transcription pipeline
-│── whisper_transcript.txt # Example transcript output
-│── temp_Enregistrement.m4a # Example audio file
-│── users.db # SQLite database (users & transcripts)
+├── .venv/                         # Virtual environment
+├── .env                           # Environment variables (API keys, configs)
+├── .gitignore                     # Git ignored files
+├── requirements.txt               # Python dependencies
+├── README.md                      # Project documentation
 │
-├── whisper_streaming/ # Streaming transcription tests
+├── app.py                         # Main Streamlit application
+├── app_int.py                     # CLI/Intermediate application
+├── pipeline.py                    # Central transcription pipeline orchestration
+├── whisper_transcript.txt         # Example transcript output
+├── temp_Enregistrement.m4a        # Sample audio recording
+├── users.db                       # SQLite database for users & transcripts
 │
-├── Transcription/ # Core speech-to-text modules
-│ ├── record_voice.py # Record audio from mic
-│ ├── preprocess_audio.py # Audio preprocessing (noise reduction)
-│ ├── transcribe_audio.py # Whisper/Faster-Whisper transcription
-│ ├── process_transcript.py # Acronym expansion & transliteration
-│ ├── punctuate.py # Adds punctuation
-│ ├── stream_transcribe.py # Streaming transcription
-│ ├── run_pipeline.py # Full transcription pipeline
-│ ├── run_pipeline2.py # Alternate pipeline runner
-│ ├── test_whisper.py # Whisper test scripts
-│ ├── test_whisper2.py
-│ ├── test_whisper3.py
-│ ├── bullet_points.txt # Example bullet point summary
-│ ├── expanded_transcript.txt # Transcript with acronyms expanded
-│ ├── original_transcript.txt # Raw transcript output
-│ ├── transcript.txt # Processed transcript
-│ ├── translated_french.txt # Translated transcript (French)
-│ ├── summary.txt # Example transcript summary
-│ ├── whisper_transcript.txt # Whisper transcript output
-│ └── my_voice.wav # Example input audio
+├── whisper_streaming/              # Whisper streaming tests & modules
 │
-├── Knowledge Extraction & Retrieval/
-│ └── (Modules for semantic + keyword search on transcripts)
+├── Transcription/                  # Speech-to-text & processing modules
+│   ├── record_voice.py             # Record audio from microphone
+│   ├── preprocess_audio.py         # Preprocess & denoise audio
+│   ├── transcribe_audio.py         # Core Whisper/Faster-Whisper transcription
+│   ├── process_transcript.py       # Acronym expansion & transliteration
+│   ├── punctuate.py                # Restores punctuation in transcripts
+│   ├── stream_transcribe.py        # Streaming transcription logic
+│   ├── run_pipeline.py             # Runs full transcription pipeline
+│   ├── run_pipeline2.py            # Alternative pipeline runner
+│   ├── test_whisper.py             # Test script for Whisper
+│   ├── test_whisper2.py
+│   ├── test_whisper3.py
+│   ├── bullet_points.txt           # Example bullet point summary
+│   ├── expanded_transcript.txt     # Transcript with acronyms expanded
+│   ├── original_transcript.txt     # Raw transcript output
+│   ├── transcript.txt              # Processed transcript
+│   ├── translated_french.txt       # Transcript translated into French
+│   ├── summary.txt                 # Example transcript summary
+│   ├── whisper_transcript.txt      # Whisper-generated transcript
+│   └── my_voice.wav                # Example input audio file
 │
-├── PostProcessing & Summarization/
-│ └── summarize.py # Transcript summarization
+├── Knowledge Extraction & Retrieval/ # Semantic + keyword transcript search
+│   └── (Modules for retrieval & knowledge indexing)
+│
+├── PostProcessing & Summarization/ # Transcript summarization modules
+│   └── summarize.py                # Generates abstractive meeting summaries
 │
 ├── scripts/
-│ └── build_acronym_registry.py # Script to build acronym registry
+│   └── build_acronym_registry.py   # Builds acronym registry for expansion
 │
 ├── tools/
-│ └── acronym_seed.py # Initial acronym seeds
+│   └── acronym_seed.py             # Initial acronym seeds for registry
 │
-├── acronym_index/ # Vector index for acronyms
-│ ├── index_builder.py
-│ ├── default_vector_store.json
-│ ├── docstore.json
-│ ├── graph_store.json
-│ ├── image_vector_store.json
-│ └── index_store.json
+├── acronym_index/                  # Vector store for acronyms
+│   ├── index_builder.py            # Builds acronym vector index
+│   ├── default_vector_store.json   # Default embedding store
+│   ├── docstore.json               # Document storage
+│   ├── graph_store.json            # Graph relationships between acronyms
+│   ├── image_vector_store.json     # (Future) embeddings for images
+│   └── index_store.json            # Finalized index structure
 │
 ├── core/
-│ └── acronyms.py # Acronym expansion logic
+│   └── acronyms.py                 # Acronym expansion logic
 │
 ├── app/
-│ └── chat_chain.py # Conversational pipeline (LLM integration)
+│   └── chat_chain.py               # Conversational pipeline for Q&A
 │
-├── data/ # User & transcript storage
-│ ├── audio/ # Uploaded audio
-│ ├── transcripts/ # User transcripts
-│ ├── uploads/ # Temporary uploads
-│ ├── acronyms.json # Acronym dictionary
-│ ├── meetings.db # Meeting database
-│ └── users.json # User accounts
+├── data/                           # User data & transcripts
+│   ├── audio/                      # Uploaded audio files
+│   ├── transcripts/                # Saved transcripts per user
+│   ├── uploads/                    # Temporary upload files
+│   ├── acronyms.json               # Acronym dictionary
+│   ├── meetings.db                 # Meeting metadata database
+│   └── users.json                  # User authentication data
 │
 ├── Interface/
-│ ├── Pages/
-│ │ ├── init.py
-│ │ ├── asr.py # Speech-to-text page
-│ │ ├── auth.py # User authentication
-│ │ ├── knowledge.py # Knowledge base search
-│ │ └── storage.py # Transcript management
+│   ├── Pages/                      # Streamlit modular pages
+│   │   ├── __init__.py
+│   │   ├── asr.py                  # Automatic Speech Recognition page
+│   │   ├── auth.py                 # Login & signup page
+│   │   ├── knowledge.py            # Knowledge base search page
+│   │   └── storage.py              # Transcript storage & management
