@@ -7,8 +7,7 @@ This project provides:
 - 🔤 **Smart acronym expansion** & transliteration of Arabic-script words  
 - 📚 **Knowledge base search** over saved transcripts  
 - 👤 **User management system** (login, signup, transcript storage)  
-- 💻 **Web interfaces** with Streamlit & Gradio  
-
+- 💻 **Web interfaces** with Streamlit 
 ---
 
 ## 🚀 Features
