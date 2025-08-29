@@ -23,7 +23,7 @@ This project provides:
 
 ---
 ## 📂 Project Structure
-
+```
 MeetSense3.0/
 │
 ├── .venv/                         # Virtual environment
@@ -103,3 +103,4 @@ MeetSense3.0/
 │   │   ├── auth.py                 # Login & signup page
 │   │   ├── knowledge.py            # Knowledge base search page
 │   │   └── storage.py              # Transcript storage & management
+```
