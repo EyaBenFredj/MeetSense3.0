@@ -267,29 +267,4 @@ Implements knowledge base search.
 ---
 
 
-# 🔤 Core Module
-
-Core utilities for acronyms.
-
-- `acronyms.py` → acronym registry & expansion logic
-
-Workflow:
-- On first mention → expand with full form (e.g. *Artificial Intelligence (AI)*)
-- Later mentions → shortened (*AI*)
-```
-
----
-
-
-
-# 🗂️ Acronym Index
-
-Vector-based storage of acronyms.
-
-- `index_builder.py` → builds vector index
-- `default_vector_store.json` → embeddings store
-- `docstore.json`, `graph_store.json`, `image_vector_store.json`, `index_store.json` → index persistence
-```
-
----
 
