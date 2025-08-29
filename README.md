@@ -23,7 +23,6 @@ This project provides:
 
 ---
 ## 📂 Project Structure
-## 📂 Project Structure
 
 MeetSense3.0/
 │
