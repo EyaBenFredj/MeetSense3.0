@@ -139,7 +139,7 @@ pip install -r requirements.txt
 * **langdetect, translit-me** – language detection & transliteration
 * **llama-index** – semantic knowledge retrieval
 * **sqlalchemy** – structured storage
-* **gradio, streamlit** – interfaces (demo + full app)
+* ** streamlit** – interfaces (demo + full app)
 
 ---
 
