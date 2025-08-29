@@ -204,11 +204,6 @@ pip install -r requirements.txt
 
 ## ▶️ Running the App
 
-### CLI
-
-```bash
-python app_int.py
-```
 
 ### Streamlit Web App
 
