@@ -1,4 +1,4 @@
-# 🧠 AI Meeting Assistant
+# 🧠 MeetSense : AI Meeting Assistant
 **Multilingual AI-powered tool for meeting transcription and knowledge retrieval (Tunisian dialect, French, English).**
 
 This project provides:
