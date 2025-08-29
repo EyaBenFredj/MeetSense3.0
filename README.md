@@ -244,9 +244,7 @@ Handles transcript cleanup and summarization.
 1. Input transcript
 2. Clean text
 3. Generate bullet points or summaries
-```
 
----
 
 
 # 📚 Knowledge Extraction & Retrieval
