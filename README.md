@@ -109,7 +109,7 @@ MeetSense3.0/
 
 1. Clone the repo:
 ```bash
-git clone [https://github.com/your-repo/MeetSense3.0.git](https://github.com/EyaBenFredj/MeetSense3.0)
+git clone https://github.com/EyaBenFredj/MeetSense3.0
 cd MeetSense3.0
 ````
 
