@@ -230,50 +230,8 @@ Go to: `http://localhost:8501`
 
 ---
 
-## 📜 License
 
-MIT License
 
-````
-
----
-
-# 📜 Sub-README files
-
----
-
-## `Transcription/README.md`
-
-```markdown
-# 🎙️ Transcription Module
-
-This folder contains scripts for audio preprocessing, transcription, and post-processing.
-
-## Files
-- `record_voice.py` → record audio from mic
-- `preprocess_audio.py` → noise reduction, normalization
-- `transcribe_audio.py` → run Whisper/Faster-Whisper
-- `process_transcript.py` → acronym expansion & transliteration
-- `punctuate.py` → restore punctuation
-- `stream_transcribe.py` → real-time streaming transcription
-- `run_pipeline.py` → run full pipeline
-- `run_pipeline2.py` → alternate pipeline runner
-- `test_whisper*.py` → test scripts
-- Outputs: `original_transcript.txt`, `expanded_transcript.txt`, `translated_french.txt`, `summary.txt`
-
-## Workflow
-1. Record or upload audio
-2. Preprocess (denoise, normalize)
-3. Transcribe (Whisper/Faster-Whisper)
-4. Process transcript (punctuation, acronyms, transliteration)
-5. Save and use in knowledge base
-````
-
----
-
-## `PostProcessing & Summarization/README.md`
-
-```markdown
 # 📝 PostProcessing & Summarization
 
 Handles transcript cleanup and summarization.
@@ -290,9 +248,7 @@ Handles transcript cleanup and summarization.
 
 ---
 
-## `Knowledge Extraction & Retrieval/README.md`
 
-```markdown
 # 📚 Knowledge Extraction & Retrieval
 
 Implements knowledge base search.
@@ -310,9 +266,7 @@ Implements knowledge base search.
 
 ---
 
-## `core/README.md`
 
-```markdown
 # 🔤 Core Module
 
 Core utilities for acronyms.
@@ -326,9 +280,8 @@ Workflow:
 
 ---
 
-## `acronym_index/README.md`
 
-```markdown
+
 # 🗂️ Acronym Index
 
 Vector-based storage of acronyms.
