@@ -21,6 +21,48 @@ This project provides:
 - Integrated **search engine** for knowledge retrieval across meetings
 
 ---
+---
+
+## 🔹 Demo Previews
+
+Below are some demo screenshots that showcase **MeetSense in action**:
+
+### 1. Streamlit Interface
+MeetSense provides an **interactive Streamlit interface** for quickly uploading and processing meeting recordings.  
+This interface is lightweight and ideal for prototyping and internal usage.
+
+<img width="1918" height="896" alt="streamlit" src="https://github.com/user-attachments/assets/0c34fc3e-37a6-4431-96ce-60ac2b9bfb56" />
+
+---
+
+### 2. React Extension Prototype
+We also built a **React-based interface**, designed to evolve into a **browser extension or standalone web app**.  
+This architecture makes it easier to integrate MeetSense into existing workflows (e.g., Google Meet, Zoom, MS Teams)  
+and ensures scalability beyond the Streamlit prototype.
+
+<img width="1897" height="986" alt="react interface" src="https://github.com/user-attachments/assets/7ea14b7b-5742-41b0-986c-256872576c04" />
+
+---
+
+### 3. Execution Example – French Transcription
+MeetSense can **transcribe meetings directly in French** (or any other supported language).  
+Here, an audio snippet is automatically detected as French and converted into clean text, then saved into a transcript file.
+
+<img width="1491" height="807" alt="dem2" src="https://github.com/user-attachments/assets/6f8710f5-190f-4697-a5d0-bae1c28de995" />
+
+---
+
+### 4. Execution Example – Transcription + Acronym Detection
+Beyond transcription, MeetSense also performs **acronym detection and expansion**.  
+In this example:
+- The raw transcript is first generated in mixed languages.  
+- Acronyms such as `DD`, `MT`, `QA`, `RM`, and `SP` are automatically spotted.  
+- A second, enriched transcript is created where acronyms are expanded for clarity (e.g., *SP → Sofrecom Products*).  
+
+This feature ensures meeting transcripts are **readable and knowledge-rich**, even when shorthand or domain-specific terms are used.
+
+<img width="1492" height="842" alt="dem1" src="https://github.com/user-attachments/assets/ed1f0b96-e78a-4655-bb8a-caeb5744bb27" />
+---
 ## 📂 Project Structure
 ```
 MeetSense3.0/
