@@ -21,7 +21,7 @@ This project provides:
 - Integrated **search engine** for knowledge retrieval across meetings
 
 ---
----
+
 
 ## 🔹 Demo Previews
 
