@@ -64,8 +64,10 @@ This feature ensures meeting transcripts are **readable and knowledge-rich**, ev
 <img width="1492" height="842" alt="dem1" src="https://github.com/user-attachments/assets/ed1f0b96-e78a-4655-bb8a-caeb5744bb27" />
 ---
 ## 📂 Project Structure
----
+
 ```
+```
+
 MeetSense3.0/
 │
 ├── .venv/                         # Virtual environment
