@@ -62,7 +62,7 @@ In this example:
 This feature ensures meeting transcripts are **readable and knowledge-rich**, even when shorthand or domain-specific terms are used.
 
 <img width="1492" height="842" alt="dem1" src="https://github.com/user-attachments/assets/ed1f0b96-e78a-4655-bb8a-caeb5744bb27" />
----
+
 ## 📂 Project Structure
 
 ```bash 
