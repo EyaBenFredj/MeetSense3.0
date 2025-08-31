@@ -65,8 +65,8 @@ This feature ensures meeting transcripts are **readable and knowledge-rich**, ev
 ---
 ## 📂 Project Structure
 
-```
-```
+```bash 
+
 
 MeetSense3.0/
 │
@@ -146,6 +146,7 @@ MeetSense3.0/
 │   │   ├── auth.py                 # Login & signup page
 │   │   ├── knowledge.py            # Knowledge base search page
 │   │   └── storage.py              # Transcript storage & management
+
 ```
 
 
