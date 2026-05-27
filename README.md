@@ -1,4 +1,28 @@
 ```
+src/
+├── pages/
+│   ├── AnalyticsPage.jsx
+│   ├── AssistantPage.jsx
+│   ├── Dashboard.jsx
+│   ├── KnowledgePage.jsx
+│   ├── LoginPage.jsx
+│   ├── MeetingsPage.jsx
+│   ├── OnboardingPage.jsx
+│   ├── ProjectTrackerPage.jsx
+│   ├── SettingsPage.jsx
+│   ├── TranscriptionDetail.jsx
+│   ├── TutorialsPage.jsx
+│   └── ValidationPage.jsx
+└── store/
+    └── auth.js
+
+tailwind.config.js
+vite.config.js
+```
+
+
+
+```
 Cognix/
 ├── api/
 │   ├── __init__.py
