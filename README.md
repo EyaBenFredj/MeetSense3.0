@@ -1,5 +1,5 @@
 ```
-saif_s1/
+Cognix/
 ├── api/
 │   ├── __init__.py
 │   ├── agent_routes.py
@@ -7,7 +7,6 @@ saif_s1/
 │   ├── project_agent.py
 │   └── routes.py
 ├── config/
-│   ├── __init__.py
 │   └── settings.py
 ├── core/
 │   ├── __init__.py
@@ -21,14 +20,6 @@ saif_s1/
 │   ├── __init__.py
 │   ├── database.py
 │   └── repositories.py
-├── models/
-│   ├── __init__.py
-│   └── schemas.py
-├── personal_ai_tools/
-│   └── Saif_S1/
-│       ├── app.py
-│       ├── ingest.py
-│       └── search.py
 ├── services/
 │   ├── __init__.py
 │   ├── assistant_service.py
