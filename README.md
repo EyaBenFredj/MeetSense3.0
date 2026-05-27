@@ -1,3 +1,55 @@
+```
+saif_s1/
+├── api/
+│   ├── __init__.py
+│   ├── agent_routes.py
+│   ├── onboarding_agent.py
+│   ├── project_agent.py
+│   └── routes.py
+├── config/
+│   ├── __init__.py
+│   └── settings.py
+├── core/
+│   ├── __init__.py
+│   ├── knowledge_engine.py
+│   ├── language_detector.py
+│   ├── model_router.py
+│   ├── rag_pipeline.py
+│   ├── terminology_engine.py
+│   └── transcription_engine.py
+├── db/
+│   ├── __init__.py
+│   ├── database.py
+│   └── repositories.py
+├── models/
+│   ├── __init__.py
+│   └── schemas.py
+├── personal_ai_tools/
+│   └── Saif_S1/
+│       ├── app.py
+│       ├── ingest.py
+│       └── search.py
+├── services/
+│   ├── __init__.py
+│   ├── assistant_service.py
+│   ├── ingestion_service.py
+│   ├── knowledge_service.py
+│   ├── meeting_service.py
+│   ├── onboarding_agent.py
+│   ├── project_agent.py
+│   ├── tutorial_service.py
+│   └── validation_service.py
+└── tests/
+    ├── test_api.py
+    ├── test_ingestion.py
+    ├── test_knowledge.py
+    ├── test_language_detector.py
+    ├── test_terminology.py
+    ├── test_transcription.py
+    └── test_validation.py
+```
+
+
 # 🧠 MeetSense : AI Meeting Assistant
 **Multilingual AI-powered tool for meeting transcription and knowledge retrieval (Tunisian dialect, French, English).**
 
